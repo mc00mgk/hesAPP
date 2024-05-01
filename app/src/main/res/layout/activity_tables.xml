@@ -1,0 +1,216 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TablesActivity">
+
+
+    <Button
+        android:id="@+id/table1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="onTableClicked"
+        android:text="Masa 1"
+        app:layout_constraintEnd_toStartOf="@+id/table2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/table2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="70dp"
+        android:onClick="onTableClicked"
+        android:text="Masa 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/table3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:onClick="onTableClicked"
+        android:text="Masa 3"
+        app:layout_constraintBottom_toTopOf="@+id/table5"
+        app:layout_constraintEnd_toStartOf="@+id/table4"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table1"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <Button
+        android:id="@+id/table4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="70dp"
+        android:onClick="onTableClicked"
+        android:text="Masa 4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table2" />
+
+    <Button
+        android:id="@+id/table5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:onClick="onTableClicked"
+        android:text="Masa 5"
+        app:layout_constraintEnd_toEndOf="@+id/table7"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table3" />
+
+    <Button
+        android:id="@+id/table6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:onClick="onTableClicked"
+        android:text="Masa 6"
+        app:layout_constraintStart_toEndOf="@+id/table5"
+        app:layout_constraintTop_toBottomOf="@+id/table4" />
+
+
+    <Button
+        android:id="@+id/table7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:onClick="onTableClicked"
+        android:text="Masa 7"
+        app:layout_constraintEnd_toEndOf="@+id/table9"
+        app:layout_constraintStart_toStartOf="@+id/table9"
+        app:layout_constraintTop_toBottomOf="@+id/table5" />
+
+    <Button
+        android:id="@+id/table8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:onClick="onTableClicked"
+        android:text="Masa 8"
+        app:layout_constraintStart_toEndOf="@+id/table7"
+        app:layout_constraintTop_toBottomOf="@+id/table6" />
+
+    <Button
+        android:id="@+id/table9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:onClick="onTableClicked"
+        android:text="Masa 9"
+        app:layout_constraintEnd_toEndOf="@+id/table1"
+        app:layout_constraintStart_toStartOf="@+id/table1"
+        app:layout_constraintTop_toBottomOf="@+id/table7" />
+
+    <Button
+        android:id="@+id/table10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:onClick="onTableClicked"
+        android:text="Masa 10"
+        app:layout_constraintStart_toEndOf="@+id/table9"
+        app:layout_constraintTop_toBottomOf="@+id/table8" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="LÜTFEN MASA SEÇİNİZ:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
